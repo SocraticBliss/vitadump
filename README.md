@@ -10,7 +10,9 @@ Creates a `nids.txt` from a [`db.yml`](https://github.com/vitasdk/vita-headers/b
 
 Run it like this: `python3 nidformat.py /usr/local/vitasdk/share/db.yml nids.txt`
 
-# vitadump.py
+# vitadump.py and vitadump_py3.py
+
+**Note:** vitadump_py3 Should work for IDA 7.6+, if not, bug me about it I guess? ~ SocraticBliss
 
 **Note:** Before using this script, you *need* to have a file named `nids.txt` in the same folder. You can create it with [nidformat.py](#nidformatpy).
 
